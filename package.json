@@ -30,6 +30,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "build": "vite build", 
     "deploy": "gh-pages -d dist"
-  }
+  },
+  "homepage": "https://alferd.github.io/portfolio-web"
 }
