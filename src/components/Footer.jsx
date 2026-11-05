@@ -12,21 +12,15 @@ function Footer() {
                 <div className="flex gap-6">
                     <a
                         className="font-label-mono text-label-mono text-text-muted hover:text-primary transition-colors duration-200"
-                        href="#"
+                        href="https://github.com/alferd06"
                     >
                         GitHub
                     </a>
                     <a
                         className="font-label-mono text-label-mono text-text-muted hover:text-primary transition-colors duration-200"
-                        href="#"
+                        href="https://www.linkedin.com/in/m-alwi-perdiansyah/"
                     >
                         LinkedIn
-                    </a>
-                    <a
-                        className="font-label-mono text-label-mono text-text-muted hover:text-primary transition-colors duration-200"
-                        href="#"
-                    >
-                        Twitter
                     </a>
                 </div>
             </div>

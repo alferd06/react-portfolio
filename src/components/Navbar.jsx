@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border-subtle">
             <div className="max-w-[900px] mx-auto w-full flex justify-between items-center h-16 px-gutter md:px-0">
                 <div className="font-label-mono text-label-mono font-bold tracking-tighter text-text-primary">
-                    ALWI.P
+                    Portfolio
                 </div>
                 <div className="hidden md:flex gap-8">
                     <a

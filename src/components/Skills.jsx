@@ -3,19 +3,24 @@ import React from 'react'
 import { useReveal } from '../hooks/useReveal'
 
 const skillsData = {
-    embedded: {
-        title: 'Embedded & Hardware',
-        items: ['Arduino', 'C++', 'Sensor Integration', 'Relay & Servo'],
+    data: {
+        title: 'Data & ML',
+        items: ['Python', 'scikit-learn', 'XGBoost', 'Pandas', 'Streamlit'],
+        dashed: false,
+    },
+    mobile: {
+        title: 'Mobile Development',
+        items: ['Flutter', 'Dart', 'State Management', 'REST API'],
         dashed: false,
     },
     exploring: {
         title: 'Currently Exploring',
-        items: ['React', 'Flutter', 'Python'],
+        items: ['React', 'SQLite'],
         dashed: true,
     },
     tools: {
         title: 'Tools',
-        items: ['Git', 'GitHub', 'VS Code', 'Linux'],
+        items: ['Git', 'GitHub', 'VS Code', 'Figma'],
         dashed: false,
     },
 }
@@ -29,7 +34,7 @@ function Skills() {
             <h2 className="font-headline-section text-headline-section text-text-primary mb-12">
                 Expertise
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                 {categories.map((category) => (
                     <div key={category.title}>
                         <h3 className="font-label-mono text-label-mono text-text-primary mb-4 uppercase tracking-wider">

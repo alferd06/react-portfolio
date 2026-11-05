@@ -21,19 +21,19 @@ function Contact() {
                 <div className="flex gap-6 mt-8">
                     <a
                         className="flex items-center justify-center w-12 h-12 border border-border-subtle text-text-muted hover:text-primary hover:border-primary transition-all duration-300"
-                        href="mailto:contact@alwi.p"
+                        href="mailto:alwi.perdiansyah@cakrawala.ac.id"
                     >
                         <span className="material-symbols-outlined">mail</span>
                     </a>
                     <a
                         className="flex items-center justify-center w-12 h-12 border border-border-subtle text-text-muted hover:text-primary hover:border-primary transition-all duration-300"
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/m-alwi-perdiansyah/"
                     >
                         <span className="material-symbols-outlined">work</span>
                     </a>
                     <a
                         className="flex items-center justify-center w-12 h-12 border border-border-subtle text-text-muted hover:text-primary hover:border-primary transition-all duration-300"
-                        href="https://github.com"
+                        href="https://github.com/alferd06"
                     >
                         <span className="material-symbols-outlined">terminal</span>
                     </a>

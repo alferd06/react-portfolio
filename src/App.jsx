@@ -1,7 +1,7 @@
 // src/App.jsx
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Projects from './components/Projects'
+import ProjectsSection from './components/ProjectsSection'
 import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
@@ -13,7 +13,7 @@ function App() {
             <Navbar />
             <main className="max-w-[900px] mx-auto px-gutter md:px-0 pt-32">
                 <Hero />
-                <Projects />
+                <ProjectsSection />
                 <About />
                 <Skills />
                 <Contact />

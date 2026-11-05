@@ -1,9 +1,12 @@
 // src/components/ProjectCard.jsx
 import React from 'react'
+import { useReveal } from '../hooks/useReveal';
 
 function ProjectCard({ project }) {
+    const revealRef = useReveal();
+
     return (
-        <div className="group bg-surface border border-border-subtle p-stack-lg hover:border-[#3F3F46] hover:-translate-y-1 transition-all duration-300">
+        <div ref={revealRef} className="reveal w-full group bg-surface border border-border-subtle p-stack-lg hover:border-[#3F3F46] hover:-translate-y-1 transition-all duration-300">
             <div className="flex justify-between items-start mb-6">
                 <span className="material-symbols-outlined text-primary text-3xl">
                     {project.icon}

@@ -6,25 +6,26 @@ function About() {
     const ref = useReveal()
 
     return (
-        <section ref={ref} className="mb-section-v-padding scroll-mt-24 reveal" id="about">
+        <section ref={ref} className="mb-section-v-padding scroll mt-24 reveal" id="about">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-stack-lg">
                 <div className="md:col-span-4">
                     <h2 className="font-headline-section text-headline-section text-text-primary sticky top-24">
                         About
                     </h2>
                 </div>
+                {/* ===================== ABOUT ===================== */}
                 <div className="md:col-span-8 space-y-6 text-text-muted text-body-main">
                     <p>
-                        I've always believed that laziness, when directed correctly, is the greatest driver of innovation. If I find myself doing the same repetitive task twice, my first instinct isn't to get better at it—it's to build something that makes sure I never have to do it again.
+                        I'm drawn to the moment raw numbers become something actionable — a pattern in messy data, a model that predicts something useful, a chart that makes a decision obvious. My projects follow that thread: an ETL pipeline and star schema built from World Bank data to compare health indicators with GDP, a crop recommender trained on soil data, and crop yield prediction across 101 countries with a genetic-algorithm-tuned XGBoost.
                     </p>
                     <p>
-                        My journey into engineering started with this exact philosophy. It began with an Automatic Irrigation System. I was tired of coming home to wilted plants because I'd forgotten to water them during a busy week. Instead of setting a reminder, I built a soil-moisture-triggered system that handled it for me.
+                        What I enjoy most is the groundwork: getting messy source files into a clean, well-structured shape that analysts and models can rely on. Building that star schema showed me how much an analysis depends on how data is cleaned and modeled — and how much a single choice, like dropping rows with missing values, can change who is represented in the results.
                     </p>
                     <p>
-                        That pattern repeated. I built an Automatic Fish Feeder because I wanted my pets to be fed with robotic precision, regardless of whether I was home or awake. These projects taught me the fundamentals of C++, microcontroller logic, and the satisfaction of seeing hardware solve a physical problem.
+                        I also care about the other half: someone has to use what the data produces. Building multi-screen Flutter apps with a team — wiring up state, navigation, and forms — showed me why a dataset or model only matters once it reaches the person who needs it.
                     </p>
                     <p>
-                        Now, I'm translating that "automation-first" mindset into software. I'm currently deep-diving into React and Flutter, exploring how to build digital interfaces that are as efficient and reliable as the hardware systems I started with. I don't just want to write code; I want to build tools that disappear into the background because they work so well.
+                        Right now my focus is data engineering — pipelines, data warehousing, and SQL — with machine learning and Flutter as complementary skills. I'm still a student, and I don't just want to write code; I want to build pipelines, models, and apps that keep working when the data gets messy.
                     </p>
                 </div>
             </div>
