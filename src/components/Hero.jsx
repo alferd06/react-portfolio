@@ -12,10 +12,10 @@ function Hero() {
         >
         {/* ===================== HERO ===================== */}
         <h1 className="font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero text-text-primary mb-stack-lg max-w-[800px]">
-            Turning raw data into decisions, from the pipeline to the screen.
+            Building web and mobile apps, and the data pipelines behind them
         </h1>
         <p className="text-text-muted text-body-main max-w-[600px] mb-10">
-            I'm Alwi, a computer science student focused on data engineering and machine learning, with hands-on Flutter experience. I'm looking for an internship where I can build data pipelines and ship things people actually use.
+            I’m Alwi, a computer science student building web and Flutter apps, with a focus on data engineering. Open to internships.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
             <a

@@ -13,7 +13,7 @@ function Contact() {
         >
             <div className="max-w-[600px]">
                 <h2 className="font-headline-section text-headline-section text-text-primary mb-stack-md">
-                    Got a problem worth automating? Let's talk.
+                    Open to internships and good ideas. Let’s talk.
                 </h2>
                 <p className="text-text-muted text-body-main mb-stack-lg">
                     I'm open to internship opportunities and projects that solve real problems. Email is the fastest way to reach me.
